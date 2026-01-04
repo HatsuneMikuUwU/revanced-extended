@@ -1,17 +1,17 @@
 enable-magisk-update = true
-patches-source = "MorpheApp/morphe-patches"
-rv-brand = "MorpheApp"
+patches-source = "anddea/revanced-patches"
+rv-brand = "ReVanced eXtended"
 parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"
 excluded-patches = "Custom branding"
 included-patches = "Material You"
-patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rv.morphe' "
+patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.uwu' "
 version = "auto"
 exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-rv-morphe"
+module-prop-name = "yt-rvx"
 
 [Music]
 arch = "both"
@@ -19,7 +19,7 @@ build-mode = "both"
 app-name = "YT Music"
 excluded-patches = "Custom branding"
 included-patches = "Material You"
-patcher-args = " -e 'GmsCore support' -OpackageNameYouTubeMusic='ytm.rv.morphe' "
+patcher-args = " -e 'GmsCore support' -OpackageNameYouTubeMusic='ytm.rvx.uwu' "
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytm-rv-morphe"
+module-prop-name = "ytm-rvx"
