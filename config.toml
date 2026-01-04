@@ -1,31 +1,25 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-patches-source = "inotia00/revanced-patches"
-rv-brand = "ReVanced eXtended"
+enable-magisk-update = true
+patches-source = "MorpheApp/morphe-patches"
+rv-brand = "MorpheApp"
 parallel-jobs = 1
 
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
-
 [YouTube]
-build-mode = "both"                                                   
-excluded-patches = ""                                                 
-included-patches = "" 
-patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.noname.exe' "
-version = "auto"                                                      
-exclusive-patches = false                                             
+build-mode = "both"
+excluded-patches = "Custom branding"
+included-patches = "Material You"
+patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rv.morphe' "
+version = "auto"
+exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-rvx"
+module-prop-name = "yt-rv-morphe"
 
 [Music]
 arch = "both"
 build-mode = "both"
-app-name = "YouTube-Music"
-excluded-patches = ""
-included-patches = ""
-patcher-args = " -e 'GmsCore support' -OpackageNameYouTubeMusic='ytm.rvx.noname.exe' "
+app-name = "YT Music"
+excluded-patches = "Custom branding"
+included-patches = "Material You"
+patcher-args = " -e 'GmsCore support' -OpackageNameYouTubeMusic='ytm.rv.morphe' "
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytm-rvx"
-
+module-prop-name = "ytm-rv-morphe"
