@@ -5,8 +5,8 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"
-excluded-patches = "Custom branding"
-included-patches = "Material You"
+excluded-patches = " 'Custom branding' "
+included-patches = " 'Material You' "
 patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.uwu' "
 version = "auto"
 exclusive-patches = false
@@ -17,8 +17,8 @@ module-prop-name = "yt-rvx"
 arch = "both"
 build-mode = "both"
 app-name = "YT Music"
-excluded-patches = "Custom branding"
-included-patches = "Material You"
+excluded-patches = " 'Custom branding' "
+included-patches = " 'Material You' "
 patcher-args = " -e 'GmsCore support' -OpackageNameYouTubeMusic='ytm.rvx.uwu' "
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
